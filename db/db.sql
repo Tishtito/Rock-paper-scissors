@@ -1,0 +1,6 @@
+CREATE TABLE players (
+    name VARCHAR(20) NOT NULL,
+    contact VARCHAR(10) NOT NULL,
+    played_at DATETIME NOT NULL DEFAULT CURRENT_TIME,
+    PRIMARY KEY (contact)
+);
